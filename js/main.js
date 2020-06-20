@@ -36,7 +36,7 @@ if(num == 0) {
   ++num;
   setTimeout(changeQuestion, 2000);
 } else if(num == 3) {
-  output.innerHTML = `Intresting Project @ ${input}!`;
+  output.innerHTML = `Interesting Project @ ${input}!`;
   inputBox.value = "";
   inputBox.setAttribute("placeholder", "Wait for 2 secs");
   ++num;
